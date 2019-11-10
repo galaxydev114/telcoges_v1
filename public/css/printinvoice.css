@@ -1,0 +1,33 @@
+@page {
+    size: auto;   /* auto is the initial value */
+    margin: 0;  /* this affects the margin in the printer settings */
+}
+
+.hidden-print {
+	display: none !important;
+}
+
+.print-margin {
+	margin-top: 0px !important;
+	top: 0px !important;
+}
+
+.relleno {
+  height: 0% !important;
+}
+
+.budget-no {
+  background-color: #43a047 !important;
+}
+
+.budget-total {
+  background-color: #43a047 !important;
+}
+
+.main-body .page-wrapper .pcoded .pcoded-inner-content .footer-print .card .card-block .invoice{
+	padding: 0px !important;
+}
+
+#invoice {
+	padding: 0px 30px !important;
+}
